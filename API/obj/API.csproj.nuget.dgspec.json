@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\UAIC\\.NET\\HOUSE ESTIMATOR\\API\\API.csproj": {}
+    "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\UAIC\\.NET\\HOUSE ESTIMATOR\\API\\API.csproj": {
+    "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UAIC\\.NET\\HOUSE ESTIMATOR\\API\\API.csproj",
+        "projectUniqueName": "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\UAIC\\.NET\\HOUSE ESTIMATOR\\API\\API.csproj",
+        "projectPath": "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj",
         "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-        "outputPath": "C:\\UAIC\\.NET\\HOUSE ESTIMATOR\\API\\obj\\",
+        "outputPath": "C:\\UAIC\\.NET\\HousePricing\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\octav\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,22 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
