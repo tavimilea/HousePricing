@@ -5,7 +5,7 @@ using System.IO;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Sqlite;
-
+using System.Diagnostics.CodeAnalysis;
 
 namespace dbtest
 {
@@ -14,7 +14,9 @@ namespace dbtest
         public DbSet<House> Houses { get; set; }
 
         private static bool _created = false;
-        public HouseDatabase()
+      
+
+        public HouseDatabase([NotNullAttribute] DbContextOptions options) : base(options)
         {
             if (!_created)
             {
@@ -22,7 +24,7 @@ namespace dbtest
                 Database.EnsureDeleted();
                 Database.EnsureCreated();
             }
-            if(Houses.ToList().Count() == 0)
+            if (Houses.ToList().Count() == 0)
             {
                 loadFromCSV("kc_house_data.csv");
             }
@@ -30,7 +32,7 @@ namespace dbtest
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionbuilder)
         {
-            optionbuilder.UseSqlite(@"Data Source=Baza.db");
+            optionbuilder.UseSqlite(@"Data Source=houses.db");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -57,27 +59,27 @@ namespace dbtest
         {
             House house = new House
             {
-                Id = Convert.ToDouble(cells[0].Trim('"')),
-                Date = cells[1],
-                Price = Convert.ToDouble(cells[2]),
-                Bedrooms = Convert.ToInt32(cells[3]),
-                Bathrooms = float.Parse(cells[4]),
-                Sqft_living = Convert.ToInt32(cells[5]),
-                Sqft_lot = Convert.ToInt32(cells[6]),
-                Floors = float.Parse(cells[7].Trim('"')),
-                Waterfront = Convert.ToInt32(cells[8]),
-                View = Convert.ToInt32(cells[9]),
-                Condition = Convert.ToInt32(cells[10]),
-                Grade = Convert.ToInt32(cells[11]),
-                Sqft_above = Convert.ToInt32(cells[12]),
-                Sqft_basement = Convert.ToInt32(cells[13]),
-                Yr_built = Convert.ToInt32(cells[14]),
-                Yr_renovated = Convert.ToInt32(cells[15]),
-                Zipcode = Convert.ToInt32(cells[16].Trim('"')),
-                Lat = float.Parse(cells[17]),
-                Longg = float.Parse(cells[18]),
-                Sqft_living15 = Convert.ToInt32(cells[19]),
-                Sqft_lot15 = Convert.ToInt32(cells[20])
+                Id = int.Parse(cells[0]),
+                Date = double.Parse(cells[1]),
+                Price = double.Parse(cells[2]),
+                Bedrooms = double.Parse(cells[3]),
+                Bathrooms = double.Parse(cells[4]),
+                Sqft_living = double.Parse(cells[5]),
+                Sqft_lot = double.Parse(cells[6]),
+                Floors = double.Parse(cells[7].Trim('"')),
+                Waterfront = double.Parse(cells[8]),
+                View = double.Parse(cells[9]),
+                Condition = double.Parse(cells[10]),
+                Grade = double.Parse(cells[11]),
+                Sqft_above = double.Parse(cells[12]),
+                Sqft_basement = double.Parse(cells[13]),
+                Yr_built = double.Parse(cells[14]),
+                Yr_renovated = double.Parse(cells[15]),
+                Zipcode = double.Parse(cells[16].Trim('"')),
+                Lat = double.Parse(cells[17]),
+                Longg = double.Parse(cells[18]),
+                Sqft_living15 = double.Parse(cells[19]),
+                Sqft_lot15 = double.Parse(cells[20])
             };
 
             return house;

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "XFq1swZB8rugEdPbx6sJaDGYPnnPuJo7DC30X5lSQQ+gA/kfRob0XaoFTLCzAbftg/TzfxeIkN8FDjQql5+Vmw==",
+  "dgSpecHash": "E00zdBBY8v+5bQorFKBvWY0EmII8uEeP2fIHQvrFL8MDxizpb6WxINw3BYG6ijFGd9xNMmmVzeFwkUTsSvBW3A==",
   "success": true,
   "projectFilePath": "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\octav\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\octav\\.nuget\\packages\\mathnet.numerics\\4.10.0\\mathnet.numerics.4.10.0.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.0\\microsoft.data.sqlite.core.5.0.0.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
@@ -26,6 +27,7 @@
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\octav\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
