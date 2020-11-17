@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj": {}
+    "G:\\dotNET\\HousePricing\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj": {
+    "G:\\dotNET\\HousePricing\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj",
+        "projectUniqueName": "G:\\dotNET\\HousePricing\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-        "outputPath": "C:\\UAIC\\.NET\\HousePricing\\API\\obj\\",
+        "projectPath": "G:\\dotNET\\HousePricing\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Luigi\\.nuget\\packages\\",
+        "outputPath": "G:\\dotNET\\HousePricing\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\octav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luigi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,8 +38,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
             },
@@ -63,6 +71,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -71,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
         }
       }
     }
