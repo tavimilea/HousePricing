@@ -33,7 +33,9 @@ namespace API
                 options.UseSqlite(this.configuration.GetConnectionString("DefaultConnection"));
             });
             services.AddControllers();
-        }
+
+            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "HouseEstimator API", Version = "V1" }); });
+            }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -53,6 +55,9 @@ namespace API
             {
                 endpoints.MapControllers();
             });
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "House Estimator V1"); });
         }
     }
 }

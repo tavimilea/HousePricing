@@ -61,6 +61,11 @@ C:\UAIC\.NET\HousePricing\API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\
 C:\UAIC\.NET\HousePricing\API\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libsqlite3.dylib
 C:\UAIC\.NET\HousePricing\API\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\sqlite3.dll
 C:\UAIC\.NET\HousePricing\API\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\sqlite3.dll
-C:\UAIC\.NET\HousePricing\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
-C:\UAIC\.NET\HousePricing\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
 C:\UAIC\.NET\HousePricing\API\bin\Debug\netcoreapp3.1\MathNet.Numerics.dll
+C:\UAIC\.NET\HousePricing\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+C:\UAIC\.NET\HousePricing\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cs
+C:\UAIC\.NET\HousePricing\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+C:\UAIC\.NET\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\UAIC\.NET\HousePricing\API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\UAIC\.NET\HousePricing\API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\UAIC\.NET\HousePricing\API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -11,7 +11,7 @@ namespace API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class HouseEstimatorController : ControllerBase
     {
         public HouseDatabase houseDatabase;
 
@@ -21,16 +21,23 @@ namespace API.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        public WeatherForecastController(HouseDatabase houseDB)
+        public HouseEstimatorController(HouseDatabase houseDB)
         {
             this.houseDatabase = houseDB;
         }
 
-        [HttpGet]
-        public IEnumerable<double> Get()
+        [HttpGet("{floors}/{grade}/{condition}")]
+        public double Get(double floors, double grade, double condition)
         {
-           var x = DataTrainer.TrainHouseModel(houseDatabase.Houses.ToList()).ToList();
-            return x;
+            House hs = new House();
+            hs.Floors = floors;
+            hs.Grade = grade;
+            hs.Condition = condition;
+            if(DataTrainer.TrainedModel == null)
+            {
+                DataTrainer.TrainHouseModel(houseDatabase.Houses.ToList());
+            }
+            return Math.Abs(DataTrainer.EvaluateHouse(hs)) / 10;
         }
     }
 }
