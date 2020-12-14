@@ -19,8 +19,6 @@
         public double Yr_built { get; set; }
         public double Yr_renovated { get; set; }
         public double Zipcode { get; set; }
-        public double Lat { get; set; }
-        public double Longg { get; set; }
         public double Sqft_living15 { get; set; }
         public double Sqft_lot15 { get; set; }
     }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj": {}
+    "D:\\proiect dotnet\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj": {
+    "D:\\proiect dotnet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj",
+        "projectUniqueName": "D:\\proiect dotnet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\UAIC\\.NET\\HousePricing\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-        "outputPath": "C:\\UAIC\\.NET\\HousePricing\\API\\obj\\",
+        "projectPath": "D:\\proiect dotnet\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\radu\\.nuget\\packages\\",
+        "outputPath": "D:\\proiect dotnet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\octav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\radu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

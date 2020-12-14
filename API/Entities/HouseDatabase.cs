@@ -46,7 +46,7 @@ namespace dbtest
             string[] rows = readcsv.Split('\n');
             var houses = this.Set<House>();
 
-            for (int i = 1; i <= 50; i++)
+            for (int i = 1; i < 400; i++)
             {
                 string[] cells = rows[i].Split(',');
                 House house = this.createHouse(cells);
@@ -76,10 +76,8 @@ namespace dbtest
                 Yr_built = double.Parse(cells[14]),
                 Yr_renovated = double.Parse(cells[15]),
                 Zipcode = double.Parse(cells[16].Trim('"')),
-                Lat = double.Parse(cells[17]),
-                Longg = double.Parse(cells[18]),
-                Sqft_living15 = double.Parse(cells[19]),
-                Sqft_lot15 = double.Parse(cells[20])
+                Sqft_living15 = double.Parse(cells[17]),
+                Sqft_lot15 = double.Parse(cells[18])
             };
 
             return house;
