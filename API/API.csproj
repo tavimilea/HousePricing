@@ -16,5 +16,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HOUSE ESTIMATORML.Model\HOUSE ESTIMATORML.Model.csproj" />
+  </ItemGroup>
+
 
 </Project>

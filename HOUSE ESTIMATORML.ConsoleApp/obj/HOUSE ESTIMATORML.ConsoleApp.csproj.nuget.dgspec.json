@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\Housyyy\\HousePricing\\API\\API.csproj": {}
+    "D:\\Git\\Housyyy\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\Git\\Housyyy\\HousePricing\\API\\API.csproj": {
+    "D:\\Git\\Housyyy\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\Housyyy\\HousePricing\\API\\API.csproj",
-        "projectName": "API",
-        "projectPath": "D:\\Git\\Housyyy\\HousePricing\\API\\API.csproj",
+        "projectUniqueName": "D:\\Git\\Housyyy\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
+        "projectName": "HOUSE ESTIMATORML.ConsoleApp",
+        "projectPath": "D:\\Git\\Housyyy\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\Housyyy\\HousePricing\\API\\obj\\",
+        "outputPath": "D:\\Git\\Housyyy\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mihai\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,31 +44,13 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "MathNet.Numerics": {
+            "Microsoft.ML": {
               "target": "Package",
-              "version": "[4.10.0, )"
+              "version": "[1.5.0-preview2, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.ML.FastTree": {
               "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            },
-            "sqlite": {
-              "target": "Package",
-              "version": "[3.13.0, )"
+              "version": "[1.5.0-preview2, )"
             }
           },
           "imports": [
@@ -82,9 +64,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
