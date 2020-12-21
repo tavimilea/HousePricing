@@ -5578,19 +5578,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mihai\\.nuget\\packages\\": {}
+    "C:\\Users\\Mircea\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\Housyyy\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
       "projectName": "HOUSE ESTIMATORML.ConsoleApp",
-      "projectPath": "D:\\Git\\Housyyy\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\Housyyy\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\obj\\",
+      "projectPath": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\Mircea\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mihai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mircea\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5602,10 +5602,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Git\\Housyyy\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj": {
-              "projectPath": "D:\\Git\\Housyyy\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj"
+            "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj": {
+              "projectPath": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj"
             }
           }
         }
@@ -5618,7 +5617,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.ML": {
             "target": "Package",
@@ -5644,7 +5642,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

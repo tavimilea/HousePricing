@@ -1,0 +1,10 @@
+C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\bin\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.deps.json
+C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\bin\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.dll
+C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\bin\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.pdb
+C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.csprojAssemblyReference.cache
+C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.AssemblyInfoInputs.cache
+C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.AssemblyInfo.cs
+C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.csproj.CoreCompileInputs.cache
+C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.dll
+C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.pdb
