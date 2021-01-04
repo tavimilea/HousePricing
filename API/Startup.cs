@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using API.Helpers;
 namespace API
 {
     public class Startup
@@ -30,6 +30,7 @@ namespace API
             services.AddDbContext<UsersDatabase>(options => {
                 options.UseSqlite(this.configuration.GetConnectionString("DefaultConnection"));
             });
+            services.Configure<AppSettings>(this.configuration.GetSection("AppSettings"));
             services.AddControllers();
 
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "HouseEstimator API", Version = "V1" }); });

@@ -15,7 +15,7 @@ namespace API.Controllers
         {
             _userService = userService;
             _userDB = userDB;
-            _userDB.CreateUser(1, "string", "string");
+            _userService.setDB(userDB);
         }
 
         [HttpPost("authenticate")]

@@ -2,6 +2,9 @@
 using System.Diagnostics.CodeAnalysis;
 using API.Entities;
 using API.Services;
+using System;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace dbtest
 {
@@ -23,11 +26,12 @@ namespace dbtest
         {
             User user = new User(Id, Username, Password);
             Users.Add(user);
+            this.SaveChanges();
         }
 
-        public DbSet<User> GetAll()
+        public List<User> GetAll()
         {
-            return Users;
+            return Users.ToList();
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionbuilder)
         {

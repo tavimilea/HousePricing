@@ -1,4 +1,7 @@
 ﻿using API.Entities;
+using API.Helpers;
+using dbtest;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -7,9 +10,6 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using API.Helpers;
-using dbtest;
-using Microsoft.EntityFrameworkCore;
 
 namespace API.Services
 {
@@ -18,17 +18,22 @@ namespace API.Services
         Response Authenticate(Request request);
         IEnumerable<User> GetAll();
         User GetById(int id);
+        void setDB(UsersDatabase usersDB);
     }
     public class UserService : IUserService
     {
-        private UsersDatabase _usersDB;
+        public UsersDatabase _usersDB;
         private DbSet<User> _users;
         private readonly AppSettings _appSettings;
+        public void setDB(UsersDatabase usersDB)
+        {
+            _usersDB = usersDB;
+            _users = usersDB.Users;
+        }
         public UserService(IOptions<AppSettings> appSettings, UsersDatabase usersDB)
         {
             _appSettings = appSettings.Value;
             _usersDB = usersDB;
-            usersDB.CreateUser(1, "string", "string");
             _users = usersDB.Users;
         }
         public Response Authenticate(Request model)
@@ -60,5 +65,5 @@ namespace API.Services
         {
             return _users.FirstOrDefault(x => x.Id == id);
         }
-     }
+    }
 }
