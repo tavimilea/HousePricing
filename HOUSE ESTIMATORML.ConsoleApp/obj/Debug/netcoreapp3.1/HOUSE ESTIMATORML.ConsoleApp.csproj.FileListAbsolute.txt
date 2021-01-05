@@ -1,0 +1,36 @@
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\MLModel.zip
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.exe
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.deps.json
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.runtimeconfig.json
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.runtimeconfig.dev.json
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.pdb
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.Core.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.Data.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.KMeansClustering.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.PCA.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.StandardTrainers.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.Transforms.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.CpuMath.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.DataView.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.FastTree.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libLdaNative.so
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libLdaNative.dylib
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\LdaNative.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\LdaNative.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libFastTreeNative.so
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libFastTreeNative.dylib
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\FastTreeNative.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\FastTreeNative.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\HOUSE ESTIMATORML.Model.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\bin\Debug\netcoreapp3.1\HOUSE ESTIMATORML.Model.pdb
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\obj\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.csprojAssemblyReference.cache
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\obj\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.AssemblyInfoInputs.cache
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\obj\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.AssemblyInfo.cs
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\obj\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\obj\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.csproj.CopyComplete
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\obj\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.dll
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\obj\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.pdb
+D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.ConsoleApp\obj\Debug\netcoreapp3.1\HOUSE ESTIMATORML.ConsoleApp.genruntimeconfig.cache
