@@ -4517,19 +4517,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mircea\\.nuget\\packages\\": {}
+    "C:\\Users\\mihai\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\API\\API.csproj",
+      "projectUniqueName": "D:\\Git\\Housyyy\\HousePricing\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\Mircea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\API\\obj\\",
+      "projectPath": "D:\\Git\\Housyyy\\HousePricing\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
+      "outputPath": "D:\\Git\\Housyyy\\HousePricing\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mircea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mihai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4541,9 +4541,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj": {
-              "projectPath": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj"
+            "D:\\Git\\Housyyy\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj": {
+              "projectPath": "D:\\Git\\Housyyy\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj"
             }
           }
         }
@@ -4556,6 +4557,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MathNet.Numerics": {
             "target": "Package",
@@ -4606,7 +4608,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -308,3 +308,29 @@ C:\Users\Mircea\Documents\GitHub\HousePricing\API\bin\Debug\netcoreapp3.1\System
 C:\Users\Mircea\Documents\GitHub\HousePricing\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
 C:\Users\Mircea\Documents\GitHub\HousePricing\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Mircea\Documents\GitHub\HousePricing\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\MLModel.zip
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.ML.Core.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.ML.Data.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.ML.KMeansClustering.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.ML.PCA.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.ML.StandardTrainers.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.ML.Transforms.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.ML.CpuMath.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.ML.DataView.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Microsoft.ML.FastTree.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libLdaNative.so
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libLdaNative.dylib
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\LdaNative.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\LdaNative.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libFastTreeNative.so
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libFastTreeNative.dylib
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\FastTreeNative.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\FastTreeNative.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\HOUSE ESTIMATORML.Model.dll
+D:\Git\Housyyy\HousePricing\API\bin\Debug\netcoreapp3.1\HOUSE ESTIMATORML.Model.pdb
