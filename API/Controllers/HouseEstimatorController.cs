@@ -3,6 +3,7 @@ using System.Linq;
 using API.Data;
 using dbtest;
 using Microsoft.AspNetCore.Mvc;
+using HOUSE_ESTIMATORML.Model;
 //using HOUSE_ESTIMATORML.Model;
 
 namespace API.Controllers
@@ -36,6 +37,14 @@ namespace API.Controllers
                 DataTrainer.TrainHouseModel(houseDatabase.Houses.ToList());
             }
             return Math.Abs(DataTrainer.EvaluateHouse(hs)) / 10;
+        }
+
+        [HttpGet("predict")]
+        public ModelOutput Predict(ModelInput house)
+        {
+            ModelOutput output = ConsumeModel.Predict(house);
+            return output;
+            
         }
     }
 }

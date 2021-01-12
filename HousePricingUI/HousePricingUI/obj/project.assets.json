@@ -1642,11 +1642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\dotNET\\NETPROJ\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj",
+      "projectUniqueName": "D:\\dotNET\\Proiect\\HousePricing\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj",
       "projectName": "HousePricingUI",
-      "projectPath": "G:\\dotNET\\NETPROJ\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj",
+      "projectPath": "D:\\dotNET\\Proiect\\HousePricing\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj",
       "packagesPath": "C:\\Users\\Luigi\\.nuget\\packages\\",
-      "outputPath": "G:\\dotNET\\NETPROJ\\HousePricingUI\\HousePricingUI\\obj\\",
+      "outputPath": "D:\\dotNET\\Proiect\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luigi\\AppData\\Roaming\\NuGet\\NuGet.Config",

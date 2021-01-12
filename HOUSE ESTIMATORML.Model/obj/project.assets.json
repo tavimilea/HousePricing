@@ -3652,19 +3652,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mircea\\.nuget\\packages\\": {}
+    "C:\\Users\\Luigi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj",
+      "projectUniqueName": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj",
       "projectName": "HOUSE ESTIMATORML.Model",
-      "projectPath": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj",
-      "packagesPath": "C:\\Users\\Mircea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.Model\\obj\\",
+      "projectPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj",
+      "packagesPath": "C:\\Users\\Luigi\\.nuget\\packages\\",
+      "outputPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mircea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Luigi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

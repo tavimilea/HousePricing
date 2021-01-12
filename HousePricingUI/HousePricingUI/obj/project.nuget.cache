@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qvFUT/Za++qCDBh2xQnyQxHEDTrhb1m3hoAYW8ZeO10f/hQHOCBBHMvxfkBUW8NzDY4MZTAYqeWixYUYLfM/TQ==",
+  "dgSpecHash": "Ne0IRuIOLS43dozewzuuRzI2/O9p4aZ79w918HRHutX+DzS9MijWJD3LDWSYMdyelu7fkafdurotmbnTOgc0IQ==",
   "success": true,
-  "projectFilePath": "G:\\dotNET\\NETPROJ\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj",
+  "projectFilePath": "D:\\dotNET\\Proiect\\HousePricing\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luigi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\Luigi\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",

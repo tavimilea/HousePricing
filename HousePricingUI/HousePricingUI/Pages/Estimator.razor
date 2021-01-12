@@ -1,131 +1,122 @@
 ﻿@page "/estimator"
-        <h1>Estimator</h1>
+<h1>Estimator</h1>
 
-        <h5>Please fill the from below:</h5>
-        <p>The form must be filled with the information about the house you want to evaluate.</p>
+<h5>Please fill the from below:</h5>
+<p>The form must be filled with the information about the house you want to evaluate.</p>
 
-        <EditForm Model="@house" OnValidSubmit="@HandleValidSubmit">
-            <DataAnnotationsValidator />
-            <ValidationSummary />
+<EditForm Model="@house" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
 
-            <p>
-                <label>
-                    No. of bedrooms:<br>
-                    <InputNumber @bind-Value="house.Bedrooms" />
-                </label>
-            </p>
-            <p>
-                <label>
-                    No. of bathrooms:<br>
-                    <InputNumber @bind-Value="house.Bathrooms" />
-                </label>
-            </p>
-            <p>
-                <label>
-                    Sqft of the living space:<br>
-                    <InputNumber @bind-Value="house.Sqft_living" />
-                </label>
-            </p>
-            <p>
-                <label>
-                    Sqft of the lot:<br>
-                    <InputNumber @bind-Value="house.Sqft_lot" />
-                </label>
-            </p>
-            <p>
-                <label>
-                    No. of floors:<br>
-                    <InputNumber @bind-Value="house.Floors" />
-                </label>
-            </p>
-            <p>
-                <label>
-                    Waterfront:
-                    <InputCheckbox @bind-Value="house.Waterfront" />
-                </label>
-            </p>
-            <p>
-                <label>
-                    View:
-                    <InputCheckbox @bind-Value="house.View" />
-                </label>
-            </p>
-            <p>
-                <label>
-                    Condition:
-                    <InputSelect @bind-Value="house.Condition">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                    </InputSelect>
-                </label>
-            </p>
-            <p>
-                <label>
-                    Grade:
-                    <InputSelect @bind-Value="house.Grade">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                    </InputSelect>
-                </label>
-            </p>
-            <p>
-                <label>
-                    Sqft above ground level:<br>
-                    <InputNumber @bind-Value="house.Sqft_above" />
-                </label>
-            </p>
-            <p>
-                <label>
-                    Sqft basement:<br>
-                    <InputNumber @bind-Value="house.Sqft_basement" />
-                </label>
-            </p>
-            <p>
-                <label>
-                    Cunstruction date:<br>
-                    <InputDate @bind-Value="house.Year_built" />
-                </label>
-            </p>
-            <p>
-                <label>
-                    Renovation date:<br>
-                    <InputDate @bind-Value="house.Year_renovated" />
-                </label>
-            </p>
+    <p>
+        <label>
+            No. of bedrooms:<br>
+            <InputNumber @bind-Value="house.Bedrooms" />
+        </label>
+    </p>
+    <p>
+        <label>
+            No. of bathrooms:<br>
+            <InputNumber @bind-Value="house.Bathrooms" />
+        </label>
+    </p>
+    <p>
+        <label>
+            Sqft of the living space:<br>
+            <InputNumber @bind-Value="house.Sqft_living" />
+        </label>
+    </p>
+    <p>
+        <label>
+            Sqft of the lot:<br>
+            <InputNumber @bind-Value="house.Sqft_lot" />
+        </label>
+    </p>
+    <p>
+        <label>
+            No. of floors:<br>
+            <InputNumber @bind-Value="house.Floors" />
+        </label>
+    </p>
+    <p>
+        <label>
+            Waterfront:
+            <InputCheckbox @bind-Value="house.Waterfront" />
+        </label>
+    </p>
+    <p>
+        <label>
+            View:
+            <InputCheckbox @bind-Value="house.View" />
+        </label>
+    </p>
+    <p>
+        <label>
+            Condition:
+            <InputNumber @bind-Value="house.Condition"/>
 
-            <p style="font-size:small">Note that the price provided by us is just an estimation and the real value may varry in your location.</p>
-            <button class="btn btn-primary" type="submit">Submit</button>
-        </EditForm>
+        </label>
+    </p>
+    <p>
+        <label>
+            Grade:
+            <InputNumber @bind-Value="house.Grade"/>
+        </label>
+    </p>
+    <p>
+        <label>
+            Sqft above ground level:<br>
+            <InputNumber @bind-Value="house.Sqft_above" />
+        </label>
+    </p>
+    <p>
+        <label>
+            Sqft basement:<br>
+            <InputNumber @bind-Value="house.Sqft_basement" />
+        </label>
+    </p>
+    <p>
+        <label>
+            Cunstruction date:<br>
+            <InputDate @bind-Value="house.Year_built" />
+        </label>
+    </p>
+    <p>
+        <label>
+            Renovation date:<br>
+            <InputDate @bind-Value="house.Year_renovated" />
+        </label>
+    </p>
 
-    @*bedrooms,bathrooms,sqft_living,sqft_lot,floors,waterfront,view,condition,grade,sqft_above,sqft_basement,yr_built,yr_renovated,
-        zipcode?,
-        lat,long?,
-        sqft_living15?,sqft_lot15?*@
+    <p style="font-size:small">Note that the price provided by us is just an estimation and the real value may varry in your location.</p>
+    <button onclick="@Submit()" class="btn btn-primary" >Submit</button>
+</EditForm>
 
-    @code {
+@*bedrooms,bathrooms,sqft_living,sqft_lot,floors,waterfront,view,condition,grade,sqft_above,sqft_basement,yr_built,yr_renovated,
+    zipcode?,
+    lat,long?,
+    sqft_living15?,sqft_lot15?*@
 
-        private HouseModel house = new HouseModel();
 
-        private void HandleValidSubmit()
-        {
 
-        }
+@code {
+
+    @using System.Net.Http
+    @inject HttpClient Http
+
+
+    private HouseModel house = new HouseModel();
+
+    private async Task Submit() {
+
+        var response = await Http.PutAsJsonAsync($"api/controller/predict", house);
+        Console.WriteLine(response);
+    }
+
+
+    public void HandleValidSubmit()
+    {
+    }
 
     }
 

@@ -8,3 +8,13 @@ C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\
 C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.csproj.CoreCompileInputs.cache
 C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.dll
 C:\Users\Mircea\Documents\GitHub\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.pdb
+D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\bin\Debug\netstandard2.0\MLModel.zip
+D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\bin\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.deps.json
+D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\bin\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.dll
+D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\bin\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.pdb
+D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.csprojAssemblyReference.cache
+D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.AssemblyInfoInputs.cache
+D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.AssemblyInfo.cs
+D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.csproj.CoreCompileInputs.cache
+D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.dll
+D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.pdb

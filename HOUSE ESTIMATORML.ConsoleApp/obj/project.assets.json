@@ -5578,19 +5578,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mircea\\.nuget\\packages\\": {}
+    "C:\\Users\\Luigi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
+      "projectUniqueName": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
       "projectName": "HOUSE ESTIMATORML.ConsoleApp",
-      "projectPath": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\Mircea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\obj\\",
+      "projectPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\Luigi\\.nuget\\packages\\",
+      "outputPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mircea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Luigi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5603,8 +5603,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj": {
-              "projectPath": "C:\\Users\\Mircea\\Documents\\GitHub\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj"
+            "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj": {
+              "projectPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj"
             }
           }
         }

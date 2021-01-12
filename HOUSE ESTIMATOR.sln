@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HOUSE ESTIMATORML.Model", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HOUSE ESTIMATORML.ConsoleApp", "HOUSE ESTIMATORML.ConsoleApp\HOUSE ESTIMATORML.ConsoleApp.csproj", "{A4D1EE53-7F7E-4607-9456-958D971C4F41}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HousePricingUI", "HousePricingUI\HousePricingUI\HousePricingUI.csproj", "{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{A4D1EE53-7F7E-4607-9456-958D971C4F41}.Release|x64.Build.0 = Release|Any CPU
 		{A4D1EE53-7F7E-4607-9456-958D971C4F41}.Release|x86.ActiveCfg = Release|Any CPU
 		{A4D1EE53-7F7E-4607-9456-958D971C4F41}.Release|x86.Build.0 = Release|Any CPU
+		{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}.Debug|x64.Build.0 = Debug|Any CPU
+		{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}.Debug|x86.Build.0 = Debug|Any CPU
+		{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}.Release|x64.ActiveCfg = Release|Any CPU
+		{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}.Release|x64.Build.0 = Release|Any CPU
+		{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}.Release|x86.ActiveCfg = Release|Any CPU
+		{FCCDDAAF-C163-44B7-9CB1-CB147C9D3AEE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
