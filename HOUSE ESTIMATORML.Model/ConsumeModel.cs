@@ -27,7 +27,7 @@ namespace HOUSE_ESTIMATORML.Model
             MLContext mlContext = new MLContext();
 
             // Load model & create prediction engine
-            string modelPath = @"C:\Users\mihai\AppData\Local\Temp\MLVSTools\HOUSE ESTIMATORML\HOUSE ESTIMATORML.Model\MLModel.zip";
+            string modelPath = @"D:\Git\Housyyy\HousePricing\HOUSE ESTIMATORML.Model\MLModel.zip";
             ITransformer mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
             var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
 
