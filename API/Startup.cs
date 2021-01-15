@@ -27,14 +27,16 @@ namespace API
                 options.UseSqlite(this.configuration.GetConnectionString("DefaultConnection"));
             });
             services.AddScoped<IUserService, UserService>();
-            services.AddDbContext<UsersDatabase>(options => {
-                options.UseSqlite(this.configuration.GetConnectionString("DefaultConnection"));
-            });
             services.Configure<AppSettings>(this.configuration.GetSection("AppSettings"));
             services.AddControllers();
+            services.AddRazorPages();
+            services.AddMvc();
+            services.AddDistributedMemoryCache(); // Adds a default in-memory implementation of IDistributedCache
+            services.AddSession();
+            services.AddServerSideBlazor();
 
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "HouseEstimator API", Version = "V1" }); });
-            }
+        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -49,7 +51,7 @@ namespace API
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseSession();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
@@ -57,6 +59,14 @@ namespace API
 
             app.UseSwagger();
             app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "House Estimator V1"); });
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
+                endpoints.MapBlazorHub();
+            });
         }
     }
 }

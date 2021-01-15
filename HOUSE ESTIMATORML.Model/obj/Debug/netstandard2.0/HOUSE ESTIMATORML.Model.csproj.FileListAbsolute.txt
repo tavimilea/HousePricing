@@ -18,3 +18,13 @@ D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\
 D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.csproj.CoreCompileInputs.cache
 D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.dll
 D:\dotNET\Proiect\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.pdb
+C:\UAIC\.NET\HousePricing\HOUSE ESTIMATORML.Model\bin\Debug\netstandard2.0\MLModel.zip
+C:\UAIC\.NET\HousePricing\HOUSE ESTIMATORML.Model\bin\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.deps.json
+C:\UAIC\.NET\HousePricing\HOUSE ESTIMATORML.Model\bin\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.dll
+C:\UAIC\.NET\HousePricing\HOUSE ESTIMATORML.Model\bin\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.pdb
+C:\UAIC\.NET\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.csprojAssemblyReference.cache
+C:\UAIC\.NET\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.AssemblyInfoInputs.cache
+C:\UAIC\.NET\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.AssemblyInfo.cs
+C:\UAIC\.NET\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.csproj.CoreCompileInputs.cache
+C:\UAIC\.NET\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.dll
+C:\UAIC\.NET\HousePricing\HOUSE ESTIMATORML.Model\obj\Debug\netstandard2.0\HOUSE ESTIMATORML.Model.pdb

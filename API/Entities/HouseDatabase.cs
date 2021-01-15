@@ -6,17 +6,21 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Sqlite;
 using System.Diagnostics.CodeAnalysis;
+using API.Entities;
 
 namespace dbtest
 {
     public class HouseDatabase : DbContext
     {
         public DbSet<House> Houses { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<EstimationRequest> Requests { get; set; }
 
+        public DbSet<Report> Reports { get; set; }
         private static bool _created = false;
-      
 
-        public HouseDatabase([NotNullAttribute] DbContextOptions options) : base(options)
+
+        public HouseDatabase([NotNullAttribute] DbContextOptions options) : base(options) //config
         {
             if (!_created)
             {
@@ -26,7 +30,7 @@ namespace dbtest
             }
             if (Houses.ToList().Count() == 0)
             {
-                loadFromCSV("kc_house_data.csv");
+                loadFromCSV("kc_house_data.csv"); //load la csv ul de train
             }
         }
 
@@ -38,6 +42,8 @@ namespace dbtest
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<House>().ToTable("Houses");
+            modelBuilder.Entity<User>().ToTable("Users");
+            modelBuilder.Entity<Report>();
         }
 
         public void loadFromCSV(string filename)
@@ -82,6 +88,48 @@ namespace dbtest
 
             return house;
         }
-                
+
+        public List<User> GetAllUsers()
+        {
+            return Users.ToList();
+        }
+
+        public void CreateUser( string Username, string Password)
+        {
+            User user = new User( Username, Password);
+            Users.Add(user);
+            this.SaveChanges();
+        }
+
+        public void AddRequest(EstimationRequest r)
+        {
+            Requests.Add(r);
+            this.SaveChanges();
+        }
+
+        public void AddReport(EstimationRequest r, string token)
+        {
+            var requestTOLink = Requests.FirstOrDefault(rq => rq.Id == r.Id);
+            var userToLink = Users.FirstOrDefault(usr => usr.Token == token); //cauta prin useri
+            Report report = new Report();
+            Reports.Add(report);
+            report.User = userToLink;
+            report.Request = requestTOLink;
+            this.SaveChanges();
+        }
+        public void SetTokenForUser(string id, string password, string newToken)
+        {
+            Users.FirstOrDefault(usr => usr.Password == password && usr.Username == id).Token = newToken; //update token
+            this.SaveChanges();
+        }
+
+        public bool tokenExists(string token) {
+            if(Users.FirstOrDefault(usr => usr.Token == token) != null)
+            {
+                return true;
+            }
+            return false;
+        }
+
     }
 }

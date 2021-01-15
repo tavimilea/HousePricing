@@ -1,0 +1,169 @@
+{
+  "FilesToCompress": [
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ag4BNlc2JdELqLlalzuzQ9SYAh_fabvZL07dKWGv28k=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\HousePricingUI.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/HousePricingUI.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mwM8NGMz5Z6mVc6Uzsy65b_NaX-mG3awgqa93hwoZYQ=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\vrdFvMxUt1VSVzw2RS-RcXRfjM9EogVEa4uhEdugOGg=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Forms.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\2BJ13B8zBISJWHu0wU9XEZCxhs1LoyIEiY_xOon2WEc=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\KjPcMQUFaqrB9uKGecEglAMZa6RL7PrPfSvP0f-ZAwo=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\jzHgXWAvWMkKIGFjZoT84tbe72E_H7CvTr-Dryh4QPs=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\rhFVQqgynTdexmbF1Pp0RRCZo_q-UDzachOD671m9bU=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\NDoZ08k29VKY-u-dPQ1YGOOneqrRBkV4nXn9paquATc=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\BxUbUlOCEttw52mTa8fLGHGUsz1ubT2W-pbhHOisVzc=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\uJP-hLoM5DHOx-TGsrgV7FXBR1JoJ-flv_-4XS1wUB8=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\HEKIOfwQ1JATnIsM11_tOYQoc6o2sVN9V10H9yJ9TMY=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\z0vL5pIgTt5TzkyTyQO1SR5-eeUGZDqvcfH7tI8bUnY=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\iSkfY-7Oc4n5fGTUqQe8n_Y6rQkyIu6XbH9oQ1gDPcI=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\dNKFyV_6iWHYOjJp1DMfxaY3YpHxst92cxIHz5ve2iY=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Options.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\VDUHlRvuu26gUsSzBwVd5U8w0AAdUw7pfJqkaBDi2-s=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\3cbvJEo8k8VJVQwyEZWWQ6yGRFQW8-219DaOnmsX3e4=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\zV-OfJNfNsG404X30Pwkdymdh1KmZpTVEmG-JNFVc-k=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.JSInterop.WebAssembly.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\N2TLGGJ95Dc2gdOCU_zvc26Ts2_ZYOA0rDOXfEAcWuA=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\mscorlib.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\1jFfsc1i1a8dUd2LmbRbf98_X0_6SGLmvhdzfdux3Gg=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.ComponentModel.DataAnnotations.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\cNX2cm8Wzb4rgPkEyf8VW0i1kmHMXyd-plZstDK0Lj8=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\TMOeFP-pzmaY9pXVjhaG0rPAHLoqQ-HijRQczUNiNdw=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\qz_pmhU9Hm2-lt4WpW8bRyKe-nLLxOkhqfp58UXPcbY=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\yGVeDCOjV-rjI_6fE2m9JCaFtpgezR2fO5bEK1NIExM=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\fn7u6Q5nvKpMUmFcmSIqgPKJXiiY9-VN94Z3Ccw7glk=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.WebAssemblyHttpHandler.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\AIX0BRy7PPzi-JMRln4XfHvSdxX_0csBVCYa9UHLX9E=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\7uKCgoqeyA-BkM_JaRdxLu5kriKc2j9H4OkXFLnsCA8=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Encodings.Web.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\GVrVGIpaTLFQS4G5WFH6ZZbKqT_o0KDOfDt6CugGIls=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\SiHkReczOaI71PnVFuy5d8_MYY4SDstnftF7w0I4R7M=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\linker\\WebAssembly.Bindings.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Bindings.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
+      "Source": "C:\\Users\\Luigi\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.3.2.0.js",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.3.2.0.js.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash",
+      "Source": "C:\\Users\\Luigi\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.timezones.dat",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.timezones.dat.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash",
+      "Source": "C:\\Users\\Luigi\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.wasm",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.wasm.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash",
+      "Source": "C:\\Users\\Luigi\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.build\\3.2.1\\tools\\blazor\\blazor.webassembly.js",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\fmVHOHy13hbx0BdUILP0jWh2I-qUBYl2M4EZDM0EpKA=.hash",
+      "Source": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\Release\\netstandard2.1\\blazor\\blazor.boot.json",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
+    }
+  ]
+}

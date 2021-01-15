@@ -45,23 +45,8 @@ namespace API.Data
             foreach(House house in houses)  {
                 List<double> currentHouseDescriptor = new List<double> ();
                 currentHouseDescriptor.Add(house.Condition);
-                //currentHouseDescriptor.Add(house.Date);
                 currentHouseDescriptor.Add(house.Floors);
-                //currentHouseDescriptor.Add(house.Lat);
-               //currentHouseDescriptor.Add(house.Longg);
-               // currentHouseDescriptor.Add(house.Sqft_living);
-                //currentHouseDescriptor.Add(house.Sqft_living15);
-                //currentHouseDescriptor.Add(house.Sqft_lot15);
-                //currentHouseDescriptor.Add(house.Sqft_lot);
-                //currentHouseDescriptor.Add(house.Yr_built);
-               // currentHouseDescriptor.Add(house.Yr_renovated);
-               // currentHouseDescriptor.Add(house.Zipcode);
-               // currentHouseDescriptor.Add(house.Waterfront);
                 currentHouseDescriptor.Add(house.Grade);
-                //currentHouseDescriptor.Add(house.View);
-                //currentHouseDescriptor.Add(house.Grade);
-                //currentHouseDescriptor.Add(house.Sqft_above);
-                //currentHouseDescriptor.Add(house.Sqft_basement);
                 HouseData.Add(currentHouseDescriptor);
             }
             return HouseData;

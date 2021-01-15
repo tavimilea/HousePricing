@@ -17,9 +17,5 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\HOUSE ESTIMATORML.Model\HOUSE ESTIMATORML.Model.csproj" />
-  </ItemGroup>
-
 
 </Project>

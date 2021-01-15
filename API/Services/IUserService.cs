@@ -18,19 +18,19 @@ namespace API.Services
         Response Authenticate(Request request);
         IEnumerable<User> GetAll();
         User GetById(int id);
-        void setDB(UsersDatabase usersDB);
+        void setDB(HouseDatabase usersDB);
     }
     public class UserService : IUserService
     {
-        public UsersDatabase _usersDB;
+        public HouseDatabase _usersDB;
         private DbSet<User> _users;
         private readonly AppSettings _appSettings;
-        public void setDB(UsersDatabase usersDB)
+        public void setDB(HouseDatabase usersDB)
         {
             _usersDB = usersDB;
             _users = usersDB.Users;
         }
-        public UserService(IOptions<AppSettings> appSettings, UsersDatabase usersDB)
+        public UserService(IOptions<AppSettings> appSettings, HouseDatabase usersDB)
         {
             _appSettings = appSettings.Value;
             _usersDB = usersDB;

@@ -1557,20 +1557,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
-      },
-      "HOUSE ESTIMATORML.Model/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.ML": "1.5.0-preview2",
-          "Microsoft.ML.FastTree": "1.5.0-preview2"
-        },
-        "compile": {
-          "bin/placeholder/HOUSE ESTIMATORML.Model.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HOUSE ESTIMATORML.Model.dll": {}
-        }
       }
     }
   },
@@ -5563,34 +5549,28 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
-    },
-    "HOUSE ESTIMATORML.Model/1.0.0": {
-      "type": "project",
-      "path": "../HOUSE ESTIMATORML.Model/HOUSE ESTIMATORML.Model.csproj",
-      "msbuildProject": "../HOUSE ESTIMATORML.Model/HOUSE ESTIMATORML.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "HOUSE ESTIMATORML.Model >= 1.0.0",
       "Microsoft.ML >= 1.5.0-preview2",
       "Microsoft.ML.FastTree >= 1.5.0-preview2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Luigi\\.nuget\\packages\\": {}
+    "C:\\Users\\octav\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\UAIC\\.NET\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
       "projectName": "HOUSE ESTIMATORML.ConsoleApp",
-      "projectPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\Luigi\\.nuget\\packages\\",
-      "outputPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\obj\\",
+      "projectPath": "C:\\UAIC\\.NET\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
+      "outputPath": "C:\\UAIC\\.NET\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Luigi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\octav\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5602,11 +5582,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj": {
-              "projectPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -5642,7 +5618,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

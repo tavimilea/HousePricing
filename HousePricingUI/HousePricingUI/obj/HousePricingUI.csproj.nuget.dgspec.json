@@ -1,17 +1,80 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotNET\\Proiect\\HousePricing\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj": {}
+    "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj": {}
   },
   "projects": {
-    "D:\\dotNET\\Proiect\\HousePricing\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj": {
+    "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotNET\\Proiect\\HousePricing\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj",
-        "projectName": "HousePricingUI",
-        "projectPath": "D:\\dotNET\\Proiect\\HousePricing\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj",
+        "projectUniqueName": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj",
+        "projectName": "HOUSE ESTIMATORML.Model",
+        "projectPath": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj",
         "packagesPath": "C:\\Users\\Luigi\\.nuget\\packages\\",
-        "outputPath": "D:\\dotNET\\Proiect\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\",
+        "outputPath": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HOUSE ESTIMATORML.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Luigi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.5.0-preview2, )"
+            },
+            "Microsoft.ML.LightGBM": {
+              "target": "Package",
+              "version": "[1.5.0-preview2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj",
+        "projectName": "HousePricingUI",
+        "projectPath": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\HousePricingUI.csproj",
+        "packagesPath": "C:\\Users\\Luigi\\.nuget\\packages\\",
+        "outputPath": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HousePricingUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luigi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,7 +89,11 @@
         },
         "frameworks": {
           "netstandard2.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj": {
+                "projectPath": "D:\\dotNET\\WeT\\HousePricing\\HousePricingUI\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj": {}
+    "C:\\UAIC\\.NET\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj": {
+    "C:\\UAIC\\.NET\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\UAIC\\.NET\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
         "projectName": "HOUSE ESTIMATORML.ConsoleApp",
-        "projectPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\Luigi\\.nuget\\packages\\",
-        "outputPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\obj\\",
+        "projectPath": "C:\\UAIC\\.NET\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\HOUSE ESTIMATORML.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
+        "outputPath": "C:\\UAIC\\.NET\\HousePricing\\HOUSE ESTIMATORML.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luigi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\octav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,11 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj": {
-                "projectPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -66,70 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj",
-        "projectName": "HOUSE ESTIMATORML.Model",
-        "projectPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj",
-        "packagesPath": "C:\\Users\\Luigi\\.nuget\\packages\\",
-        "outputPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Luigi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.0": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "Microsoft.ML": {
-              "target": "Package",
-              "version": "[1.5.0-preview2, )"
-            },
-            "Microsoft.ML.FastTree": {
-              "target": "Package",
-              "version": "[1.5.0-preview2, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

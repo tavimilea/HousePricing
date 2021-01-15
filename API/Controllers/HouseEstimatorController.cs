@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using API.Data;
+using API.Entities;
 using dbtest;
 using Microsoft.AspNetCore.Mvc;
-using HOUSE_ESTIMATORML.Model;
 //using HOUSE_ESTIMATORML.Model;
 
 namespace API.Controllers
@@ -14,37 +14,33 @@ namespace API.Controllers
     {
         public HouseDatabase houseDatabase;
 
-
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
         public HouseEstimatorController(HouseDatabase houseDB)
         {
             this.houseDatabase = houseDB;
         }
 
-        [HttpGet("{floors}/{grade}/{condition}")]
-        public double Get(double floors, double grade, double condition)
+        [HttpPost("estimate")]
+        public ResponseAuth Estimate(EstimationRequestWrapper request)
         {
+            if(!houseDatabase.tokenExists(request.Token)) //Verofoca daca tokenul este corect
+            {
+                ResponseAuth r = new ResponseAuth("Bad Auth TOken");
+                return r;
+            }
             House hs = new House();
-            hs.Floors = floors;
-            hs.Grade = grade;
-            hs.Condition = condition;
+            hs.Floors = request.Floors;
+            hs.Grade = request.Grade;
+            hs.Condition = request.Condition;
+
+            EstimationRequest req = request.UnrwrapEstimation(); //Creeaza obiectul de reqest pe care il salvez ib DB
+            houseDatabase.AddRequest(req);
+            houseDatabase.AddReport(req, req.Token); 
+
             if(DataTrainer.TrainedModel == null)
             {
                 DataTrainer.TrainHouseModel(houseDatabase.Houses.ToList());
             }
-            return Math.Abs(DataTrainer.EvaluateHouse(hs)) / 10;
-        }
-
-        [HttpGet("predict")]
-        public ModelOutput Predict(ModelInput house)
-        {
-            ModelOutput output = ConsumeModel.Predict(house);
-            return output;
-            
+            return new ResponseAuth( (Math.Abs(DataTrainer.EvaluateHouse(hs)) / 10).ToString());
         }
     }
 }

@@ -3652,19 +3652,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Luigi\\.nuget\\packages\\": {}
+    "C:\\Users\\octav\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj",
+      "projectUniqueName": "C:\\UAIC\\.NET\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj",
       "projectName": "HOUSE ESTIMATORML.Model",
-      "projectPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj",
-      "packagesPath": "C:\\Users\\Luigi\\.nuget\\packages\\",
-      "outputPath": "D:\\dotNET\\Proiect\\HousePricing\\HOUSE ESTIMATORML.Model\\obj\\",
+      "projectPath": "C:\\UAIC\\.NET\\HousePricing\\HOUSE ESTIMATORML.Model\\HOUSE ESTIMATORML.Model.csproj",
+      "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
+      "outputPath": "C:\\UAIC\\.NET\\HousePricing\\HOUSE ESTIMATORML.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Luigi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\octav\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3713,7 +3713,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

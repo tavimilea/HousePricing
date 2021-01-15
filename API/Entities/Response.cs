@@ -13,4 +13,12 @@
             Token = token;
         }
     }
+
+    public class ResponseAuth {
+        public string message { get; set; }
+        public ResponseAuth(string msg)
+        {
+            this.message = msg;
+        }
+    }
 }
